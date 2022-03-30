@@ -1,4 +1,5 @@
-height=[89,89,78,90,87,79]
+height=[[12,23,34,45],[56,67,78,89]]
 import numpy as np
-np_height=np.array(height)
-print(type(np_height))
+np_2d=np.array(height)
+np_height=np_2d
+print(np_height.shape)
